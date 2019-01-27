@@ -3,7 +3,7 @@
 This is a project about identifying dog breed from images of dogs while I was completing nanodegree program on deep learning at Udacity.
 There are two approaches, one is using small convolutional network and the other transfer learning from pretrained vgg16 network.
 
-To see the results just download and open the dog_app.ipynb.html file.
+To see the results just download and open the dog_app.html file.
 
 To run the Jupyter notebook do the following
 1) Clone the repository
@@ -14,7 +14,7 @@ To run the Jupyter notebook do the following
 	conda create -n dog-breed python=3.6
 	source activate dog breed
 	```
-	- __Windows__: 
+	- __Windows__:
 	```
 	conda create --name dog-breed python=3.6
 	activate dog-breed
@@ -22,9 +22,9 @@ To run the Jupyter notebook do the following
 	
 	- __Linux__ or __Mac__: 
 	```
-	conda install pytorch torchvision -c pytorch 
+	conda install pytorch torchvision -c pytorch
 	```
-	- __Windows__: 
+	- __Windows__:
 	```
 	conda install pytorch -c pytorch
 	pip install torchvision
